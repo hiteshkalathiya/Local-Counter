@@ -1,0 +1,50 @@
+#form {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background-color: #EED3D9;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h1,
+p
+{
+text-align: center;
+}
+
+button {
+    background-color: #f4a047;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+input {
+    width: 500px;
+    background-color: #F5E8DD;
+    padding: 10px;
+    margin: 20px;
+    border: #CCD3CA solid 2px;
+}
+
+.data {
+    background-color: #8CB9BD;
+    margin: 30px;
+    width: 250px;
+    padding: 30px;
+    color: #EBE3D5;
+}
+
+#box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
